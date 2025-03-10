@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Tracker</h1>
+        <label for="task-select">Select Task:</label>
+        <select id="task-select">
+            <option value="taskA">MyTask A</option>
+            <option value="taskB">MyTask B</option>
+            <option value="taskC">MyTask C</option>
+            <option value="taskD">MyTask D</option>
+            <option value="taskE">MyTask E</option>
+            <option value="taskF">MyTask F</option>
+            <option value="taskG">MyTask G</option>
+            <option value="taskH">MyTask H</option>
+            <option value="taskI">MyTask I</option>
+            <option value="taskJ">MyTask J</option>
+        </select>
+        <div id="timer">00:00:00</div>
+        <button id="start-btn">Start</button>
+        <button id="pause-btn" disabled>Pause</button>
+        <button id="stop-btn" disabled>Stop</button>
+        <h2>Task Logs</h2>
+        <ul id="log-list"></ul>
+        <button id="export-btn">Export Logs</button>
+    </div>
+    <script src="time_tracker.js"></script>
+</body>
+</html>
